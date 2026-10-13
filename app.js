@@ -80,11 +80,10 @@ function calcolaClassifica() {
     );
 }
 
-function zonaPosizione(posizione, totale) {
-  if (posizione <= 2) return "zona-promozione";
-  if (posizione <= 4) return "zona-playoff";
-  if (posizione > totale - 2) return "zona-retrocessione";
-  return "";
+function zonaPosizione(posizione) {
+  if (posizione <= 8) return "zona-promozione";
+  if (posizione <= 24) return "zona-playoff";
+  return "zona-retrocessione";
 }
 
 function formattaDr(valore) {
