@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Champions League Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="testata">
+    <h1>Champions League</h1>
+    <p id="sottotitolo">Classifica e risultati</p>
+  </header>
+
+  <main class="layout">
+    <section class="pannello" aria-labelledby="titolo-classifica">
+      <div class="pannello-testa">
+        <h2 id="titolo-classifica">Classifica</h2>
+        <label class="ricerca">
+          <span class="visivamente-nascosto">Cerca una squadra</span>
+          <input id="ricerca" type="search" placeholder="Cerca una squadra" autocomplete="off">
+        </label>
+      </div>
+      <div class="tabella-scroll">
+        <table class="classifica">
+          <thead>
+            <tr>
+              <th scope="col" class="pos">#</th>
+              <th scope="col" class="squadra">Squadra</th>
+              <th scope="col" title="Punti">Pt</th>
+              <th scope="col" title="Partite giocate">G</th>
+              <th scope="col" title="Vittorie">V</th>
+              <th scope="col" title="Pareggi">N</th>
+              <th scope="col" title="Sconfitte">P</th>
+              <th scope="col" title="Differenza reti">DR</th>
+            </tr>
+          </thead>
+          <tbody id="corpo-classifica"></tbody>
+        </table>
+      </div>
+      <p id="vuoto" class="messaggio" hidden>Nessuna squadra trovata. Prova con un altro nome.</p>
+      <p id="errore" class="messaggio errore" hidden>Impossibile caricare dati.json. Apri il progetto con un server locale, per esempio l'estensione Live Server di VS Code.</p>
+      <ul class="legenda">
+        <li><span class="punto promozione"></span>Qualificazione</li>
+        <li><span class="punto playoff"></span>Playoff</li>
+        <li><span class="punto retrocessione"></span>Eliminazione</li>
+      </ul>
+    </section>
+
+    <aside class="colonna">
+      <section class="pannello" aria-labelledby="titolo-dettaglio">
+        <h2 id="titolo-dettaglio">Scheda squadra</h2>
+        <div id="dettaglio" class="dettaglio">
+          <p class="messaggio">Seleziona una squadra dalla classifica per vedere la forma e le partite.</p>
+        </div>
+      </section>
+
+      <section class="pannello" aria-labelledby="titolo-giornata">
+        <div class="pannello-testa">
+          <h2 id="titolo-giornata">Giornata</h2>
+          <label class="selettore">
+            <span class="visivamente-nascosto">Scegli la giornata</span>
+            <select id="giornata"></select>
+          </label>
+        </div>
+        <ul id="partite" class="partite"></ul>
+      </section>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
