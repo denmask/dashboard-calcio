@@ -80,6 +80,26 @@
     { "giornata": 2, "casa": 36, "trasferta": 12, "golCasa": 1, "golTrasferta": 0 },
     { "giornata": 2, "casa": 8, "trasferta": 1, "golCasa": 2, "golTrasferta": 4 },
     { "giornata": 2, "casa": 11, "trasferta": 31, "golCasa": 3, "golTrasferta": 2 },
-    { "giornata": 2, "casa": 18, "trasferta": 16, "golCasa": 3, "golTrasferta": 1 }
+    { "giornata": 2, "casa": 18, "trasferta": 16, "golCasa": 3, "golTrasferta": 1 },
+
+    { "giornata": 3, "casa": 34, "trasferta": 12, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 19, "trasferta": 24, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 31, "trasferta": 20, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 1, "trasferta": 3, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 28, "trasferta": 36, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 8, "trasferta": 16, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 13, "trasferta": 21, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 7, "trasferta": 25, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 17, "trasferta": 35, "golCasa": "", "golTrasferta": "" },
+
+    { "giornata": 3, "casa": 5, "trasferta": 4, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 23, "trasferta": 29, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 9, "trasferta": 30, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 6, "trasferta": 27, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 2, "trasferta": 15, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 14, "trasferta": 32, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 22, "trasferta": 10, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 26, "trasferta": 18, "golCasa": "", "golTrasferta": "" },
+    { "giornata": 3, "casa": 11, "trasferta": 33, "golCasa": "", "golTrasferta": "" }
   ]
 }
